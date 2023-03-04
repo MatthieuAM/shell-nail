@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+
+
+
+
+.container {
+
+    width: 1200px;
+    margin: auto;
+
+}
+
+h1{
+
+
+font-size: 24px;
+font-family: 'nunito', sans-serif;
+font-weight: 700;
+margin: 22px 0;
+
+text-align: center;
+
+}
+
+
+.institut-principale{
+
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+margin-bottom: 50px;
+}
+
+.institut-principale p{
+
+width: 1767px;
+    
+
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+font-size: 16px;
+}
+
+
+
+.image-institut {
+
+    /* height: 25rem; */
+    /* width: 100%; */
+    /* height: 430px; */
+
+
+    /* height: 25rem; */
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    margin-right: 104px;
+    height: 310px;
+}
+
+
+
+
+
+
+
+.image-institut2 {
+
+    /* height: 25rem; */
+    /* width: 100%; */
+    /* height: 430px; */
+
+
+    /* height: 25rem; */
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    margin-left: 104px;
+    height: 310px;
+
+}
+
+
+
+/*------------------*/
+
+
+.lastSect{
+
+    margin-bottom: 4rem;
+    
+    }
+    
+    
+    .displayLastSect {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 3rem 10rem 0 10rem;
+    }
+    
+    .imgLibrairie {
+    
+        height: 20rem;
+        margin-top: 2rem;
+        width: 36rem;
+        object-fit: cover;
+    }
+    
+    .ouverture {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    
+    
+    .ouverture h3 {
+    
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #141414;
+    
+    
+    }
+    
+    
+    .ouverture h4 {
+    
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: #141414;
+        margin-top: 2rem;
+    
+    }
+
+
+
+
+
+    
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1200px) {
+
+    .container {
+
+        width: 1000px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+
+    .container {
+
+        width: 500px;
+    }
+
+
+.institut-principale{
+
+    flex-direction: column;
+
+}
+
+.institut-principale p{
+width: 500px;
+margin-top: 20px;
+
+}
+
+.image-institut{
+
+margin-right: 0px;
+padding: 5px;
+}
+
+.image-institut2{
+
+    margin-left: 0px;
+    padding: 5px;
+}
+
+
+.modif-media{
+
+flex-direction: column-reverse;
+
+}
+
+
+.displayLastSect{
+
+flex-direction: column;
+
+}
+
+.imgLibrairie{
+
+    width: 480px;
+
+}
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .container {
+
+        width: 400px;
+
+    }
+
+    .institut-principale p{
+        width: 400px;
+        
+        }
+
+
+.ouverture h4{
+
+    width: 300px;
+
+}
+
+
+.imgLibrairie{
+
+    width: 400px;
+
+}
+
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+    .container {
+
+        width: 250px;
+
+    }
+
+    .institut-principale p{
+
+width: 250px;
+padding: 5px;
+
+    }
+
+.text-mobile{
+
+display: none;
+
+}
+
+
+.imgLibrairie{
+
+    object-fit: contain;
+    height: 18rem;
+
+}
+
+.displayLastSect{
+margin: 0;
+
+}
+
+
+
+
+
+}
+
