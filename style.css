@@ -1,0 +1,746 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+
+
+.container {
+
+    width: 1200px;
+    margin: auto;
+
+}
+
+
+
+
+
+.slide-top {
+
+    background-color: rgb(252, 203, 203);
+
+
+
+}
+
+.display-slide-top {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-top {
+
+    margin: 30px 0;
+}
+
+
+.image-top img {
+
+    height: 400px;
+    /* margin-right: 35px; */
+
+}
+
+.titrehead {
+
+    text-align: center;
+    margin-left: 50px;
+}
+
+
+h1 {
+
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+
+.titrehead p {
+
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.bouton-slide-top {
+
+
+    color: #272727;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    -webkit-box-shadow: 5px 5px 21px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 5px 21px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+/*-------SLIDER--------------
+
+.titrehead{
+
+margin-left: 30px;
+
+}
+
+.display-slider{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.slider-container{
+
+width: 1280px;
+margin: auto;
+
+}
+
+.slide {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 47vh;
+    overflow-x: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+    
+  .slide1 {
+    background-image: url(
+  "image/visage1-modif.png");
+margin-left: 300px;
+
+  }
+  .slide2 {
+    background-image: url(
+  "https://media.geeksforgeeks.org/wp-content/uploads/20210812221254/pic2.png");
+  }
+  .slide3 {
+    background-image: url(
+  "https://media.geeksforgeeks.org/wp-content/uploads/20210812221322/pic3.png");
+  }
+  .arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    /*margin-top: -35px;*/
+/* width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  #arrow-left {
+    border-width: 20px 30px 20px 0;
+    border-color: transparent #fff transparent transparent;
+    left: 20rem;
+   /* margin-left: 20px;*/
+/* }
+    
+  #arrow-right {
+    border-width: 20px 0 20px 30px;
+    border-color: transparent transparent transparent #fff;
+    right: 20rem;
+/*    margin-right: 20px;   }*/
+
+
+/*-----------FIN SLIDER ------------*/
+
+
+.display-soins {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+.soins {
+
+    margin: 30px 0;
+
+}
+
+
+.titre-soins {
+
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+
+}
+
+
+.soinsbis {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+
+.soins-first {
+
+    width: 360px;
+    height: 14rem;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.soins-first img {
+    width: 100%;
+    height: 224px;
+    object-fit: cover;
+
+
+
+}
+
+.nom-soins {
+    width: 360px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.nom-soins p {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
+
+.soinsbis2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+
+}
+
+.carre-joint {
+    box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.49);
+
+
+}
+
+.carre-joint a {
+
+    text-decoration: none;
+
+
+
+}
+
+.carre-joint a:hover {
+
+    color: #ff865d;
+
+
+}
+
+.savoir {
+
+    display: none;
+
+}
+
+.soins-first:hover .savoir {
+
+    display: block;
+
+}
+
+
+
+.votre-estheticienne {
+
+    background-color: rgb(252, 203, 203);
+    height: 711px;
+
+
+}
+
+
+.display-estheticienne {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 711px;
+
+}
+
+
+.text-estheticienne {
+
+    margin-right: 45px;
+
+}
+
+.text-estheticienne h2 {
+
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+
+.text-estheticienne p {
+
+    width: 400px;
+    font-family: 'Nunito', sans-serif;
+
+
+}
+
+
+
+
+
+.dimensions-image-estheticienne {
+
+    width: 555px;
+    height: 551px;
+    background-color: red;
+
+}
+
+.dimensions-image-estheticienne img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+
+}
+
+
+
+
+
+
+/*------ NOUS CONTACTER ------------*/
+
+
+.contact-Home {
+
+    margin-bottom: 8rem;
+    margin-top: 30px;
+
+}
+
+.contact-Home h2 {
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #000B38;
+    margin-bottom: 4rem;
+}
+
+.display-Contact-Home {
+
+
+    display: flex;
+    align-items: center;
+
+}
+
+.img-Contact-Home {
+
+    /* height: 25rem; */
+    width: 100%;
+    height: 430px;
+}
+
+
+.img-Contact-Home img {
+
+    /* height: 25rem; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.text-Contact-Home {
+
+
+    margin-left: 5rem;
+
+}
+
+
+
+.text-Contact-Home h3 {
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #000B38;
+    margin-bottom: 1rem;
+
+
+}
+
+.text-Contact-Home h4 {
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #000B38;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+
+
+}
+
+
+
+.text-Contact-Home p {
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #000B38;
+    padding-top: 13px;
+
+
+}
+
+.contact-Home li {
+
+    list-style: none;
+
+}
+
+
+.display-List-Contact {
+
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+
+
+.contact {
+
+    text-decoration: none;
+    color: #000B38;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+
+
+
+}
+
+
+
+.icon {
+    margin-right: 1.2rem;
+    color: #000B38;
+
+}
+
+.text-List-Contact {}
+
+.fa-envelope {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+
+
+@media screen and (max-width: 1200px) {
+
+
+    .container {
+
+        width: 1000px;
+    }
+
+
+
+    .soins-first {
+        width: 290px;
+
+    }
+
+    .nom-soins {
+
+        width: 290px;
+
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width: 1024px) {
+
+
+    .container {
+
+        width: 500px;
+    }
+
+    .dimensions-image-estheticienne {
+        display: none;
+    }
+
+
+    .img-Contact-Home {
+
+        display: none;
+
+    }
+
+    .text-Contact-Home {
+
+        margin-left: 0;
+    }
+
+
+    .display-slide-top {
+
+        flex-direction: column;
+
+    }
+
+
+    h1 {
+
+        font-size: 24px;
+
+    }
+
+    .titre-soins {
+
+        margin-top: 35px;
+      
+
+            margin-bottom: 0px;
+    
+    
+        
+    }
+
+
+    .soinsbis {
+
+        flex-direction: column;
+        width: 389px;
+    }
+
+    .soins-first {
+
+        width: 389px;
+
+    }
+
+    .carre-joint {
+        margin-top: 30px;
+
+    }
+
+
+    .soinsbis2 {
+
+        flex-direction: column;
+        width: 389px;
+    }
+
+    .nom-soins p {
+
+        width: 389px;
+
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .container {
+
+        width: 400px;
+
+    }
+
+
+    .image-top img {
+
+        height: 271px;
+
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .container {
+
+        width: 250px;
+
+    }
+
+
+    .image-top img {
+
+        height: 166px;
+
+    }
+
+
+
+
+
+
+
+    .soinsbis {
+
+        flex-direction: column;
+        width: 290px;
+    }
+
+    .titre-soins {
+
+        margin-bottom: 0px;
+
+
+    }
+
+
+    .soins-first {
+
+        width: 290px;
+
+    }
+
+    .carre-joint {
+        margin-top: 30px;
+
+    }
+
+
+    .soinsbis2 {
+
+        flex-direction: column;
+        width: 290px;
+    }
+
+    .nom-soins p {
+
+        width: 290px;
+
+    }
+
+    .votre-estheticienne {
+
+
+        height: 392px;
+
+    }
+
+
+    .display-estheticienne {
+
+
+        width: 100px;
+        height: 392px;
+        justify-content: unset;
+    }
+
+    .paragraphe-mobile {
+
+        display: none;
+
+    }
+
+    .text-estheticienne {
+
+        margin-right: 0px;
+
+    }
+
+    .text-estheticienne p {
+
+        width: 264px;
+
+    }
+
+    .text-estheticienne h2 {
+
+        font-size: 25px;
+
+    }
+
+}
